@@ -1,11 +1,13 @@
-openai
-langchain
 finance-datareader
 OpenDartReader
+yfinance
 
-pypdf
-chromadb
-tiktoken
+# plot
+matplotlib
 
-plotly
+# DB
+psycopg2-binary
+
+# ETC
+requests
 python-dotenv
