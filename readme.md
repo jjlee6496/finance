@@ -10,3 +10,18 @@
 3. 기업 밸류에이션
 4. 투자 전략 백테스팅
 5. 포트폴리오 관리 및 성과 추적
+
+## Docker Compose 사용
+1. .env 파일 작성
+```text
+# postgres
+DB_NAME={YOUR_DB_NAME}
+DB_USER={USER_NAME}
+DB_PASSWORD={PASSWORD}
+DB_HOST={HOST}
+DB_PORT={PORT}
+```
+2. docker-compose 실행
+```bash
+docker-compose up --build
+```
